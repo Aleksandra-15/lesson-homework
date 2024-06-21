@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      .box {
+        width: 250px;
+        height: 250px;
+        background: orange;
+        position: relative;
+      }
+    </style>
+    <div
+      class="square"
+      style="width: 100px; height: 50px; background-color: blue"
+    ></div>
+
+    <div
+      class="rectangle"
+      style="
+        padding: 10px 24px;
+        background-color: lightcoral;
+        text-align: center;
+        display: inline-block;
+        font-size: 20px;
+        margin-top: 200px;
+      "
+    >
+      Клікни на мене
+    </div>
+    <p class="info"></p>
+
+    <button class="js-clear">Очистити</button>
+    <p class="output js-output"></p>
+
+    <input type="text" id="input" />
+    <p id="message"></p>
+    <!--  <form action="" class="form">
+      <input type="text" placeholder="login">
+      <input type="password" placeholder="password">
+      <button class="btn">Зареєструватись</button>
+    </form>
+    <a href="https://uk.javascript."></a>
+    <input
+      class="btn"
+      type="button"
+      value="Натисни на мене"
+      onClick="alert('Клік')"
+    />
+    <button class="btn-click">hello</button>
+    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem necessitatibus vitae alias maiores deleniti accusamus accusantium provident dignissimos, in esse corrupti numquam ullam eum nemo quas ex hic repudiandae sapiente.
+    Sit a natus eveniet quos quaerat repellendus, accusamus officiis, ratione ipsum vel excepturi explicabo nulla, at facere enim omnis ducimus minus ullam corrupti perspiciatis. Officiis doloremque nam labore natus iure.</p> -->
+    <!-- 
+    <button class="single">sing collback</button>
+    <button class="mutiple">Mutiple callback</button>
+
+    <button data-action="add">Add Lestener</button>
+    <button data-action="remove">Remove Lestener</button>
+   
+    <button class="btn-click">Click</button>
+
+ <button class="button">Hello</button>
+ -->
+    <!--  <input type="text" class="my-input">
+ <button class="focus-btn">Focus input</button>
+ <button class="blur-btn">blur input</button>
+
+ <div class="box">
+
+ </div> -->
+    <input
+      type="text"
+      id="validation-input"
+      data-length="6"
+      placeholder="Введи 6 символів"
+    />
+    <p class="error"></p>
+    <script src="./js/script.js"></script>
+    <script src="./js/events.js"></script>
+  </body>
+</html>
